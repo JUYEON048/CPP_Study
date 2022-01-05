@@ -1,6 +1,9 @@
 // 9_nullptr.cpp
 // C 언어에서 0은 int 타입이지만, 컴파일러에 의해서 특별하게 처리됩니다.
 
+// NULL
+// => #define NULL (void*)0
+
 int main()
 {
   // C
